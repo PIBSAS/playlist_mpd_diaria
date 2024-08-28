@@ -4,8 +4,18 @@
    con tan solo enchufar el powerbank a la Raspberry Pi 3b, comience a reproducir música.
 
 # Clonar o crear el sript, dar permiso de ejecución, agregar a crontab:
-- nano $HOME/play.sh
-- chmod +x $HOME/play.sh
-- crontab -e
-- @reboot $HOME/play.sh
-- sudo reboot
+- ````bash
+  nano $HOME/play.sh
+  ````
+- ````bash
+  chmod +x $HOME/play.sh
+  ````
+- ````bash
+  crontab -e
+  ````
+- ````bash
+  @reboot $HOME/play.sh
+  ````
+- ````bash
+  sudo reboot
+  ````
